@@ -8443,9 +8443,9 @@ does not include</text>
 <label x="157.48" y="152.4" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="20"/>
-<wire x1="360.68" y1="195.58" x2="365.76" y2="195.58" width="0.1524" layer="91"/>
-<label x="365.76" y="195.58" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="21"/>
+<wire x1="353.06" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="340.36" y="193.04" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA14" class="0">
@@ -8455,9 +8455,9 @@ does not include</text>
 <label x="157.48" y="149.86" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="15"/>
-<wire x1="353.06" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
-<label x="340.36" y="200.66" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="16"/>
+<wire x1="360.68" y1="200.66" x2="365.76" y2="200.66" width="0.1524" layer="91"/>
+<label x="365.76" y="200.66" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA15" class="0">
@@ -8467,9 +8467,9 @@ does not include</text>
 <label x="157.48" y="147.32" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="16"/>
-<wire x1="360.68" y1="200.66" x2="365.76" y2="200.66" width="0.1524" layer="91"/>
-<label x="365.76" y="200.66" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="17"/>
+<wire x1="353.06" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
+<label x="340.36" y="198.12" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA16" class="0">
@@ -8479,9 +8479,9 @@ does not include</text>
 <label x="157.48" y="144.78" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="19"/>
-<wire x1="353.06" y1="195.58" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
-<label x="340.36" y="195.58" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="20"/>
+<wire x1="360.68" y1="195.58" x2="365.76" y2="195.58" width="0.1524" layer="91"/>
+<label x="365.76" y="195.58" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA22" class="0">
@@ -8489,11 +8489,6 @@ does not include</text>
 <pinref part="U1" gate="G$1" pin="PA22"/>
 <wire x1="170.18" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 <label x="157.48" y="129.54" size="1.27" layer="95"/>
-</segment>
-<segment>
-<pinref part="CN5" gate="A" pin="21"/>
-<wire x1="353.06" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
-<label x="340.36" y="193.04" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA23" class="0">
@@ -8503,9 +8498,9 @@ does not include</text>
 <label x="157.48" y="127" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="18"/>
-<wire x1="360.68" y1="198.12" x2="365.76" y2="198.12" width="0.1524" layer="91"/>
-<label x="365.76" y="198.12" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="19"/>
+<wire x1="353.06" y1="195.58" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
+<label x="340.36" y="195.58" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINA24" class="0">
@@ -8529,9 +8524,9 @@ does not include</text>
 <label x="220.98" y="99.06" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="14"/>
-<wire x1="360.68" y1="203.2" x2="365.76" y2="203.2" width="0.1524" layer="91"/>
-<label x="365.76" y="203.2" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="15"/>
+<wire x1="353.06" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
+<label x="340.36" y="200.66" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PIND26" class="0">
@@ -8541,9 +8536,9 @@ does not include</text>
 <label x="220.98" y="96.52" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="13"/>
-<wire x1="353.06" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
-<label x="340.36" y="203.2" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="14"/>
+<wire x1="360.68" y1="203.2" x2="365.76" y2="203.2" width="0.1524" layer="91"/>
+<label x="365.76" y="203.2" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PIND27" class="0">
@@ -8553,9 +8548,9 @@ does not include</text>
 <label x="220.98" y="93.98" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN5" gate="A" pin="17"/>
-<wire x1="353.06" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
-<label x="340.36" y="198.12" size="1.27" layer="95"/>
+<pinref part="CN5" gate="A" pin="18"/>
+<wire x1="360.68" y1="198.12" x2="365.76" y2="198.12" width="0.1524" layer="91"/>
+<label x="365.76" y="198.12" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="PINB0" class="0">
@@ -8795,6 +8790,11 @@ does not include</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA12"/>
 <wire x1="170.18" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CN5" gate="A" pin="13"/>
+<wire x1="353.06" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
+<label x="340.36" y="203.2" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>
