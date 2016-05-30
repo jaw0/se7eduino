@@ -1095,6 +1095,29 @@ Source: RS Components</description>
 <wire x1="1.9" y1="1.1" x2="2" y2="0.2" width="0.25" layer="21"/>
 <wire x1="2" y1="0.2" x2="1.7" y2="-1.8" width="0.25" layer="21"/>
 </package>
+<package name="SOT-23-5">
+<wire x1="0.8" y1="-1.5" x2="-0.8" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="0.5" x2="0.8" y2="-0.5" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="-1.328" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-1.328" x2="0.8" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="1.328" width="0.1524" layer="21"/>
+<smd name="1" x="-1.3" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-1.3" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-1.3" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="1.3" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="1.3" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<text x="-1.5875" y="2.2225" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.325" y1="0.625" x2="-0.825" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.325" y1="-0.325" x2="-0.825" y2="0.325" layer="51" rot="R270"/>
+<rectangle x1="-1.325" y1="-1.275" x2="-0.825" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="1.025" y1="-1.275" x2="1.525" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="1.025" y1="0.625" x2="1.525" y2="1.275" layer="51" rot="R270"/>
+<wire x1="-0.8" y1="1.3" x2="-0.8" y2="1.472" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="0.572" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-0.6" x2="-0.8" y2="-0.428" width="0.1524" layer="21"/>
+</package>
 <package name="SOT89-5">
 <wire x1="2.3" y1="1.3" x2="2.3" y2="-1.3" width="0.15" layer="21"/>
 <wire x1="-2.3" y1="-1" x2="-2.3" y2="1.3" width="0.15" layer="21"/>
@@ -1459,7 +1482,7 @@ LOGO</text>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="NCP694">
+<symbol name="REGULATOR4">
 <pin name="VIN" x="-15.24" y="2.54" length="middle"/>
 <pin name="EN" x="-15.24" y="0" length="middle"/>
 <pin name="VOUT" x="15.24" y="2.54" length="middle" rot="R180"/>
@@ -2277,12 +2300,23 @@ Source: RS Component / Phycomp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NCP694" prefix="VR">
+<deviceset name="REGULATOR4" prefix="VR" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="NCP694" x="0" y="0"/>
+<gate name="G$1" symbol="REGULATOR4" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT89-5">
+<device name="-SOT23" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SC89" package="SOT89-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2 2P"/>
@@ -7333,7 +7367,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$3" library="jaw" deviceset="ROBOTMAN-LOGO" device="2"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="U2" library="adafruit" deviceset="MCP73831" device="/OT"/>
-<part name="VR1" library="jaw" deviceset="NCP694" device=""/>
+<part name="VR1" library="jaw" deviceset="REGULATOR4" device="-SOT23" value="3v3, 500mA"/>
 <part name="R7" library="jaw" deviceset="R" device="-0402" value="1k"/>
 <part name="R8" library="jaw" deviceset="R" device="-0402" value="1k"/>
 <part name="LED2" library="jaw" deviceset="LED-DUAL" device="0805"/>
