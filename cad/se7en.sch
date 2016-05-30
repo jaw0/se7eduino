@@ -7485,8 +7485,8 @@ does not include</text>
 <instance part="R10" gate="G$1" x="101.6" y="71.12" rot="R180"/>
 <instance part="GND19" gate="G$1" x="68.58" y="45.72"/>
 <instance part="GND20" gate="G$1" x="106.68" y="68.58"/>
-<instance part="LED3" gate="G$1" x="25.4" y="50.8"/>
-<instance part="R11" gate="G$1" x="17.78" y="55.88" rot="R90"/>
+<instance part="LED3" gate="G$1" x="17.78" y="55.88" rot="R270"/>
+<instance part="R11" gate="G$1" x="25.4" y="50.8" rot="R180"/>
 <instance part="CN6" gate="G$1" x="43.18" y="132.08"/>
 <instance part="CN7" gate="G$1" x="53.34" y="132.08" rot="R180"/>
 <instance part="C25" gate="G$1" x="40.64" y="15.24"/>
@@ -8484,13 +8484,6 @@ does not include</text>
 <label x="365.76" y="195.58" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="PINA22" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA22"/>
-<wire x1="170.18" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
-<label x="157.48" y="129.54" size="1.27" layer="95"/>
-</segment>
-</net>
 <net name="PINA23" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA23"/>
@@ -8756,22 +8749,9 @@ does not include</text>
 <junction x="81.28" y="71.12"/>
 <wire x1="27.94" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <junction x="30.48" y="71.12"/>
-<pinref part="R11" gate="G$1" pin="P$2"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="17.78" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 <junction x="30.48" y="60.96"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="STAT"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R11" gate="G$1" pin="P$1"/>
-<wire x1="17.78" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PIEZO" class="0">
@@ -8795,6 +8775,19 @@ does not include</text>
 <pinref part="CN5" gate="A" pin="13"/>
 <wire x1="353.06" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <label x="340.36" y="203.2" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="STAT"/>
+<pinref part="R11" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="P$2"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="20.32" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
