@@ -17,5 +17,15 @@ S2B-PH-SM4-TB                   jst batt conn
 
 YC164-JR-07100KL                R array, 4*100k, 1206
 
-assorted R+C
+        10u     C 0603
+        1u      C 0603
+        4u7     C 0603
+        10u     L 0603
+        0u1     C 0402 qty=15
+        10p     C 0402
+        4p7     C 0402 qty=2
+        10k     R 0402
+        1M      R 0402
+        1k      R 0402 qty=4
+        5k62    R 0402 1%
 
