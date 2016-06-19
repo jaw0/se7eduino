@@ -7259,7 +7259,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="U1" library="jaw" deviceset="ATSAME70" device=""/>
+<part name="U1" library="jaw" deviceset="ATSAME70" device="" value="ATSAMS70"/>
 <part name="GND1" library="jaw" deviceset="PWR-GND" device=""/>
 <part name="VCC1" library="jaw" deviceset="PWR-VCC" device=""/>
 <part name="L1" library="jaw" deviceset="L" device="-0402" value="FB"/>
@@ -7338,7 +7338,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$1" library="jaw" deviceset="ROBOTMAN-LOGO" device="2"/>
 <part name="U$3" library="jaw" deviceset="ROBOTMAN-LOGO" device="2"/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
+<part name="LOGO$1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="U2" library="jaw" deviceset="MCP73831" device=""/>
 <part name="VR1" library="jaw" deviceset="REGULATOR4" device="-SOT23" value="3v3, 500mA"/>
 <part name="R7" library="jaw" deviceset="R" device="-0402" value="1k"/>
@@ -7480,7 +7480,7 @@ does not include</text>
 <instance part="U$6" gate="G$1" x="358.14" y="25.4"/>
 <instance part="U$1" gate="G$1" x="332.74" y="25.4"/>
 <instance part="U$3" gate="G$1" x="342.9" y="25.4"/>
-<instance part="LOGO1" gate="G$1" x="414.02" y="27.94"/>
+<instance part="LOGO$1" gate="G$1" x="414.02" y="27.94"/>
 <instance part="U2" gate="G$1" x="43.18" y="55.88"/>
 <instance part="VR1" gate="G$1" x="60.96" y="20.32"/>
 <instance part="R7" gate="G$1" x="50.8" y="142.24"/>
