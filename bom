@@ -1,0 +1,21 @@
+
+
+ATSAME70N21A			MCU atsame70, (100pin S70 or E70 various memory options)
+ABS07-32.768KHz-1-T             Xtal 32k768, 12.5pF, 10ppm
+CSTCE12M0G15L99-R0              resonator 12MHz, 0.1%
+KMR211NG_LFS                    button, qty=2
+720-LWQ38EQ1S23K6L1             LED white 0603
+APHBM2012CGKSYKC                dual LED, 0805
+FDC6329S                        p-mosfet + diode
+MCP73831                        batt charger
+BU33SD5                         regulator (or similar part)
+BK1005HM102-T                   L Ferrite 0402
+0ZCJ0075FF2E                    Fuse 750mA 1206
+10118192-0001LF                 usb conn
+101-00660-68-6                  micro sd
+S2B-PH-SM4-TB                   jst batt conn
+
+YC164-JR-07100KL                R array, 4*100k, 1206
+
+assorted R+C
+
