@@ -6,7 +6,7 @@ CSTCE12M0G15L99-R0              resonator 12MHz, 0.1%
 KMR211NG_LFS                    button, qty=2
 720-LWQ38EQ1S23K6L1             LED white 0603
 APHBM2012CGKSYKC                dual LED, 0805
-FDC6329S                        p-mosfet + diode
+FDC6392S                        p-mosfet + diode
 MCP73831                        batt charger
 BU33SD5                         regulator (or similar part)
 BK1005HM102-T                   L Ferrite 0402

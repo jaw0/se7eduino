@@ -22,9 +22,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
@@ -1598,7 +1598,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="109.722" y="35.116" size="0.5" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="100.122" y="33.714" size="1" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="Q1" library="jaw" package="SOT-23-6" value="FDC6329S" x="63" y="60" smashed="yes" rot="R270">
+<element name="Q1" library="jaw" package="SOT-23-6" value="FDC6392S" x="63" y="60" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.7" y="60.5" size="0.75" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="61.6" y="59.7" size="0.5" layer="27"/>
 </element>

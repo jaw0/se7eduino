@@ -2371,7 +2371,7 @@ Source: RS Component / Phycomp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDC6329S" prefix="Q">
+<deviceset name="FDC6392S" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET-P+DIODE" x="0" y="0"/>
 </gates>
@@ -7344,7 +7344,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R7" library="jaw" deviceset="R" device="-0402" value="1k"/>
 <part name="R8" library="jaw" deviceset="R" device="-0402" value="1k"/>
 <part name="LED2" library="jaw" deviceset="LED-DUAL" device="0805"/>
-<part name="Q1" library="jaw" deviceset="FDC6329S" device=""/>
+<part name="Q1" library="jaw" deviceset="FDC6392S" device=""/>
 <part name="GND18" library="jaw" deviceset="PWR-GND" device=""/>
 <part name="R9" library="jaw" deviceset="R" device="-0402" value="10k"/>
 <part name="R10" library="jaw" deviceset="R" device="-0402" value="1M"/>
