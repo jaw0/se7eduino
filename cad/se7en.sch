@@ -761,37 +761,37 @@ chip</description>
 <wire x1="5.07" y1="-7.8" x2="5.07" y2="-6" width="0.127" layer="51"/>
 </package>
 <package name="MICROSD/EJECTOR">
-<wire x1="5.96" y1="-7.6" x2="6.96" y2="-7.6" width="0.127" layer="21"/>
-<wire x1="6.96" y1="-7.6" x2="6.96" y2="7.5" width="0.127" layer="21"/>
-<wire x1="6.96" y1="7.5" x2="-7" y2="7.5" width="0.127" layer="21"/>
-<wire x1="-7" y1="7.5" x2="-7" y2="-6.9" width="0.127" layer="21"/>
-<wire x1="-7" y1="-6.9" x2="-6" y2="-6.9" width="0.127" layer="21"/>
-<wire x1="-6" y1="-6.9" x2="-5.3" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="-5.3" y1="-6" x2="4.36" y2="-6" width="0.127" layer="21"/>
-<wire x1="4.36" y1="-6" x2="5.96" y2="-7.6" width="0.127" layer="21" curve="-90"/>
-<wire x1="-6.6" y1="-7.12" x2="-5.4" y2="-8.36" width="0.127" layer="51" curve="90"/>
-<wire x1="-5.4" y1="-8.36" x2="3.76" y2="-8.36" width="0.127" layer="51"/>
-<wire x1="3.76" y1="-8.32" x2="5.06" y2="-7.26" width="0.127" layer="51" curve="90"/>
-<wire x1="-6.6" y1="-8.02" x2="-5.4" y2="-9.26" width="0.127" layer="51" curve="90"/>
-<wire x1="-5.4" y1="-9.26" x2="3.76" y2="-9.26" width="0.127" layer="51"/>
-<wire x1="3.76" y1="-9.22" x2="5.06" y2="-8.16" width="0.127" layer="51" curve="90"/>
-<wire x1="-6.5" y1="-11.32" x2="-5.3" y2="-12.56" width="0.127" layer="51" curve="90"/>
-<wire x1="-5.3" y1="-12.56" x2="3.86" y2="-12.56" width="0.127" layer="51"/>
-<wire x1="3.86" y1="-12.52" x2="5.16" y2="-11.46" width="0.127" layer="51" curve="90"/>
-<smd name="SHELL2" x="-6.6" y="-6" dx="1.6" dy="2" layer="1"/>
-<smd name="SHELL3" x="6.56" y="-6.9" dx="1.6" dy="2" layer="1"/>
-<smd name="CD1" x="-5" y="7.1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
-<smd name="SHELL1" x="0.96" y="7.1" dx="1.6" dy="1.8" layer="1" rot="R90"/>
-<smd name="8" x="-5.7" y="-3.1" dx="0.8" dy="1.5" layer="1"/>
-<smd name="7" x="-4.6" y="-3.1" dx="0.8" dy="1.5" layer="1"/>
-<smd name="6" x="-3.5" y="-3.5" dx="0.8" dy="1.5" layer="1"/>
-<smd name="5" x="-2.4" y="-3.1" dx="0.8" dy="1.5" layer="1"/>
-<smd name="4" x="-1.3" y="-3.5" dx="0.8" dy="1.5" layer="1"/>
-<smd name="3" x="-0.2" y="-3.1" dx="0.8" dy="1.5" layer="1"/>
-<smd name="2" x="0.86" y="-2.7" dx="0.8" dy="1.5" layer="1"/>
-<smd name="1" x="1.96" y="-3.1" dx="0.8" dy="1.5" layer="1"/>
-<text x="-3.3" y="3.4" size="1.27" layer="25">&gt;NAME</text>
-<circle x="3" y="-4" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-5.96" y1="8.3" x2="-6.96" y2="8.3" width="0.127" layer="21"/>
+<wire x1="-6.96" y1="8.3" x2="-6.96" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="-6.96" y1="-6.8" x2="7" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="7" y1="-6.8" x2="7" y2="7.6" width="0.127" layer="21"/>
+<wire x1="7" y1="7.6" x2="6" y2="7.6" width="0.127" layer="21"/>
+<wire x1="6" y1="7.6" x2="5.3" y2="6.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="5.3" y1="6.7" x2="-4.36" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-4.36" y1="6.7" x2="-5.96" y2="8.3" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.6" y1="7.82" x2="5.4" y2="9.06" width="0.127" layer="51" curve="90"/>
+<wire x1="5.4" y1="9.06" x2="-3.76" y2="9.06" width="0.127" layer="51"/>
+<wire x1="-3.76" y1="9.02" x2="-5.06" y2="7.96" width="0.127" layer="51" curve="90"/>
+<wire x1="6.6" y1="8.72" x2="5.4" y2="9.96" width="0.127" layer="51" curve="90"/>
+<wire x1="5.4" y1="9.96" x2="-3.76" y2="9.96" width="0.127" layer="51"/>
+<wire x1="-3.76" y1="9.92" x2="-5.06" y2="8.86" width="0.127" layer="51" curve="90"/>
+<wire x1="6.5" y1="12.02" x2="5.3" y2="13.26" width="0.127" layer="51" curve="90"/>
+<wire x1="5.3" y1="13.26" x2="-3.86" y2="13.26" width="0.127" layer="51"/>
+<wire x1="-3.86" y1="13.22" x2="-5.16" y2="12.16" width="0.127" layer="51" curve="90"/>
+<smd name="SHELL2" x="6.6" y="6.7" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="SHELL3" x="-6.56" y="7.6" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="CD1" x="5" y="-6.4" dx="1.6" dy="1.8" layer="1" rot="R270"/>
+<smd name="SHELL1" x="-0.96" y="-6.4" dx="1.6" dy="1.8" layer="1" rot="R270"/>
+<smd name="8" x="5.7" y="3.8" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="7" x="4.6" y="3.8" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="6" x="3.5" y="4.2" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="5" x="2.4" y="3.8" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="4" x="1.3" y="4.2" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="0.2" y="3.8" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.86" y="3.4" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="-1.96" y="3.8" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<text x="3.3" y="-2.7" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<circle x="-3" y="4.7" radius="0.2" width="0.127" layer="21"/>
 </package>
 <package name="HEADER-3X2-PTH">
 <pad name="1" x="0" y="0" drill="1.016" shape="square"/>
@@ -1151,21 +1151,21 @@ Source: RS Components</description>
 <wire x1="-0.2" y1="-0.3" x2="-0.2" y2="0.3" width="0.1" layer="21"/>
 </package>
 <package name="SMD0805-DUAL">
-<text x="-1.778" y="1.116" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.978" y="1.216" size="1" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-1.778" y="-2.086" size="1" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<wire x1="-1.778" y1="1.016" x2="1.778" y2="1.016" width="0.127" layer="21"/>
 <wire x1="1.778" y1="-1.016" x2="-1.778" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="-1.016" x2="-1.778" y2="1.016" width="0.127" layer="21"/>
-<smd name="4" x="-0.9" y="0.475" dx="1.2" dy="0.6" layer="1"/>
-<smd name="1" x="-0.9" y="-0.475" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="0.9" y="0.475" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="0.9" y="-0.475" dx="1.2" dy="0.6" layer="1"/>
-<wire x1="-0.15" y1="0.2" x2="-0.15" y2="-0.2" width="0.1" layer="21"/>
-<wire x1="-0.15" y1="-0.2" x2="0.15" y2="0" width="0.1" layer="21"/>
-<wire x1="0.15" y1="0" x2="-0.15" y2="0.2" width="0.1" layer="21"/>
-<wire x1="0.15" y1="0.9" x2="0.15" y2="0" width="0.1" layer="21"/>
-<rectangle x1="1.6" y1="-1" x2="1.9" y2="1" layer="21"/>
-<wire x1="0.15" y1="0" x2="0.15" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-1.778" y1="1.016" x2="1.778" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.778" y1="1.016" x2="1.778" y2="-1.016" width="0.127" layer="21"/>
+<smd name="4" x="0.9" y="-0.475" dx="1.2" dy="0.6" layer="1" rot="R180"/>
+<smd name="1" x="0.9" y="0.475" dx="1.2" dy="0.6" layer="1" rot="R180"/>
+<smd name="3" x="-0.9" y="-0.475" dx="1.2" dy="0.6" layer="1" rot="R180"/>
+<smd name="2" x="-0.9" y="0.475" dx="1.2" dy="0.6" layer="1" rot="R180"/>
+<wire x1="0.15" y1="-0.2" x2="0.15" y2="0.2" width="0.1" layer="21"/>
+<wire x1="0.15" y1="0.2" x2="-0.15" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.15" y1="0" x2="0.15" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="-0.15" y1="-0.9" x2="-0.15" y2="0" width="0.1" layer="21"/>
+<rectangle x1="-1.9" y1="-1" x2="-1.6" y2="1" layer="21" rot="R180"/>
+<wire x1="-0.15" y1="0" x2="-0.15" y2="0.9" width="0.1" layer="21"/>
 </package>
 <package name="SOT-23-6">
 <smd name="5" x="1.35" y="0" dx="0.6" dy="1.2" layer="1" rot="R270"/>
