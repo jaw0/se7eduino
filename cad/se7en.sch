@@ -7191,7 +7191,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="jaw" deviceset="C" device="-0402" value=".1u"/>
 <part name="L4" library="jaw" deviceset="L" device="SMD0603" value="10uH"/>
 <part name="R2" library="jaw" deviceset="R" device="-0402" value="5k62 1%"/>
-<part name="C4" library="jaw" deviceset="C" device="0603" value="10u"/>
+<part name="C4" library="jaw" deviceset="C" device="0603" value="4u7"/>
 <part name="C5" library="jaw" deviceset="C" device="-0402" value="10p"/>
 <part name="GND3" library="jaw" deviceset="PWR-GND" device=""/>
 <part name="GND4" library="jaw" deviceset="PWR-GND" device=""/>
@@ -7226,8 +7226,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CN3" library="jaw" deviceset="HEADER-3X2" device="-POGO" value="DO NOT PLACE"/>
 <part name="SW1" library="jaw" deviceset="SWITCH" device="KMR211"/>
 <part name="SW2" library="jaw" deviceset="SWITCH" device="KMR211"/>
-<part name="C20" library="jaw" deviceset="C" device="0603" value="10u"/>
-<part name="C21" library="jaw" deviceset="C" device="0603" value="10u"/>
+<part name="C20" library="jaw" deviceset="C" device="0603" value="4u7"/>
+<part name="C21" library="jaw" deviceset="C" device="0603" value="4u7"/>
 <part name="C22" library="jaw" deviceset="C" device="0603" value="1u"/>
 <part name="C23" library="jaw" deviceset="C" device="-0402" value=".1u"/>
 <part name="R1" library="jaw" deviceset="R" device="-0402" value="10k"/>
@@ -8158,6 +8158,7 @@ does not include</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PD16"/>
 <wire x1="215.9" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<label x="220.98" y="121.92" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
