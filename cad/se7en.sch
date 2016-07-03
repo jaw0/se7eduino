@@ -1110,11 +1110,50 @@ chip</description>
 <text x="-2.3" y="-2.1" size="1" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0.3" y="-1.4" size="0.5" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="HEADER-1X1-THM">
-<pad name="P$1" x="0" y="0" drill="1.016" diameter="1.524"/>
+<package name="M127-1X2-THM">
+<pad name="P$1" x="-1.27" y="0" drill="0.508" diameter="0.889"/>
+<pad name="P$2" x="0" y="0" drill="0.508" diameter="0.889"/>
+<wire x1="-1.905" y1="0.635" x2="0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-1.905" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="0.635" size="0.635" layer="25">&gt;NAME</text>
 </package>
-<package name="HEADER-1X1-SMALL">
-<pad name="P$1" x="0" y="0" drill="0.508" diameter="0.889"/>
+<package name="HEADER-1X2-THM-TIGHT">
+<pad name="P$1" x="-1.27" y="0" drill="0.762"/>
+<pad name="P$2" x="1.27" y="0" drill="0.762"/>
+<wire x1="-2.286" y1="1.016" x2="2.286" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="-2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="HEADER-1X2-THM-WIDE">
+<pad name="1" x="-2.54" y="0" drill="1.016"/>
+<pad name="2" x="2.54" y="0" drill="1.016"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+</package>
+<package name="CONN-10AWG-2">
+<pad name="P$1" x="4" y="0" drill="2.75" diameter="5"/>
+<pad name="P$2" x="-4" y="0" drill="2.75" diameter="5"/>
+<wire x1="-7" y1="3" x2="7" y2="3" width="0.25" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-3" width="0.25" layer="21"/>
+<wire x1="7" y1="-3" x2="-7" y2="-3" width="0.25" layer="21"/>
+<wire x1="-7" y1="-3" x2="-7" y2="3" width="0.25" layer="21"/>
+<text x="0.5" y="-2" size="1" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="HEADER-1X2-THM">
+<pad name="P$1" x="-1.27" y="0" drill="1.016" diameter="1.524"/>
+<pad name="P$2" x="1.27" y="0" drill="1.016" diameter="1.524"/>
+<wire x1="-2.286" y1="1.016" x2="2.286" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="-2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1454,14 +1493,6 @@ LOGO</text>
 <pin name="C" x="5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.127" layer="94"/>
 </symbol>
-<symbol name="HEADER-1X1">
-<pin name="P$1" x="-7.62" y="0" length="middle"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
-</symbol>
 <symbol name="MCP73831/2">
 <wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -1474,6 +1505,16 @@ LOGO</text>
 <pin name="VBAT" x="15.24" y="5.08" length="middle" rot="R180"/>
 <pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
 <pin name="PROG" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
+</symbol>
+<symbol name="HEADER-1X2">
+<pin name="P$1" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$2" x="-5.08" y="0" length="middle"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="2.54" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2208,29 +2249,6 @@ LOGO</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER-1X1" prefix="CN">
-<gates>
-<gate name="G$1" symbol="HEADER-1X1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="BIG" package="HEADER-1X1-THM">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMALL" package="HEADER-1X1-SMALL">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MCP73831" prefix="U">
 <description>&lt;b&gt;MCP73831/2&lt;/b&gt;
 &lt;P&gt;
@@ -2251,6 +2269,58 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <connect gate="G$1" pin="VBAT" pad="3"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 <connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X2" prefix="CN">
+<gates>
+<gate name="G$1" symbol="HEADER-1X2" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="M127" package="M127-1X2-THM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M254" package="HEADER-1X2-THM-TIGHT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".4" package="HEADER-1X2-THM-WIDE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="CONN-10AWG-2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THM" package="HEADER-1X2-THM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7166,14 +7236,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND20" library="jaw" deviceset="PWR-GND" device=""/>
 <part name="LED4" library="jaw" deviceset="LED" device="" value="RED"/>
 <part name="R11" library="jaw" deviceset="R" device="-0402" value="1k"/>
-<part name="CN6" library="jaw" deviceset="HEADER-1X1" device="SMALL" value="DO NOT PLACE"/>
-<part name="CN7" library="jaw" deviceset="HEADER-1X1" device="SMALL" value="DO NOT PLACE"/>
 <part name="C25" library="jaw" deviceset="C" device="0603" value="10u 10V"/>
 <part name="R12" library="jaw" deviceset="R" device="-0402" value="100k"/>
 <part name="R4" library="jaw" deviceset="R" device="-0402" value="100k"/>
 <part name="VCC10" library="jaw" deviceset="PWR-VCC" device=""/>
 <part name="LED2" library="jaw" deviceset="LED" device="" value="green"/>
 <part name="LED3" library="jaw" deviceset="LED" device="" value="orange"/>
+<part name="CN8" library="jaw" deviceset="HEADER-1X2" device="-THM"/>
 </parts>
 <sheets>
 <sheet>
@@ -7305,14 +7374,13 @@ does not include</text>
 <instance part="GND20" gate="G$1" x="106.68" y="68.58"/>
 <instance part="LED4" gate="G$1" x="17.78" y="55.88" rot="R270"/>
 <instance part="R11" gate="G$1" x="25.4" y="50.8" rot="R180"/>
-<instance part="CN6" gate="G$1" x="43.18" y="132.08"/>
-<instance part="CN7" gate="G$1" x="53.34" y="132.08" rot="R180"/>
 <instance part="C25" gate="G$1" x="40.64" y="15.24"/>
 <instance part="R12" gate="G$1" x="416.56" y="73.66" rot="R90"/>
 <instance part="R4" gate="G$1" x="421.64" y="73.66" rot="R90"/>
 <instance part="VCC10" gate="G$1" x="419.1" y="83.82"/>
 <instance part="LED2" gate="G$1" x="40.64" y="152.4" rot="R180"/>
 <instance part="LED3" gate="G$1" x="40.64" y="142.24" rot="R180"/>
+<instance part="CN8" gate="G$1" x="45.72" y="127" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7461,11 +7529,12 @@ does not include</text>
 <junction x="30.48" y="152.4"/>
 <wire x1="35.56" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="30.48" y="142.24"/>
-<pinref part="CN6" gate="G$1" pin="P$1"/>
 <wire x1="35.56" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
 <junction x="30.48" y="132.08"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="CN8" gate="G$1" pin="P$2"/>
+<wire x1="45.72" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="P$2"/>
@@ -8526,9 +8595,10 @@ does not include</text>
 <label x="160.02" y="185.42" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN7" gate="G$1" pin="P$1"/>
 <wire x1="60.96" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <label x="63.5" y="132.08" size="1.27" layer="95"/>
+<pinref part="CN8" gate="G$1" pin="P$1"/>
+<wire x1="48.26" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PINA12" class="0">
@@ -8536,6 +8606,11 @@ does not include</text>
 <pinref part="CN5" gate="A" pin="13"/>
 <wire x1="353.06" y1="203.2" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
 <label x="340.36" y="203.2" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PA12"/>
+<wire x1="170.18" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+<label x="157.48" y="154.94" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
