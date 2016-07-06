@@ -7359,7 +7359,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="VCC10" library="jaw" deviceset="PWR-VCC" device=""/>
 <part name="LED2" library="jaw" deviceset="LED" device="" value="green"/>
 <part name="LED3" library="jaw" deviceset="LED" device="" value="orange"/>
-<part name="CN8" library="jaw" deviceset="HEADER-1X2" device="-THM"/>
+<part name="CN8" library="jaw" deviceset="HEADER-1X2" device="M254" value="HEADER-1X2M254"/>
 </parts>
 <sheets>
 <sheet>
