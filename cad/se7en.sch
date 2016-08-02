@@ -7344,7 +7344,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="jaw" deviceset="MCP73831" device=""/>
 <part name="VR1" library="jaw" deviceset="REGULATOR4" device="-SOT23" value="3v3, 500mA"/>
 <part name="R7" library="jaw" deviceset="R" device="-0402" value="1k"/>
-<part name="R8" library="jaw" deviceset="R" device="-0402" value="1k"/>
+<part name="R8" library="jaw" deviceset="R" device="-0402" value="470"/>
 <part name="Q1" library="jaw" deviceset="FDC6392S" device=""/>
 <part name="GND18" library="jaw" deviceset="PWR-GND" device=""/>
 <part name="R9" library="jaw" deviceset="R" device="-0402" value="10k"/>
